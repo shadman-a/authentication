@@ -12,7 +12,7 @@ public class LoginController {
 
     @GetMapping("/")
     public String showGreeting(ModelMap map) {
-        return "greeting";
+        return "home";
     }
 
 
